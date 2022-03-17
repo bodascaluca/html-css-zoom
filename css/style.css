@@ -72,9 +72,34 @@ html{
 .main{
     width: 100%;
     height: calc(100vh - 120px);
-    background-color: bisque;
+    background-color: rgb(0, 0, 0);
     overflow-y: scroll;
 }
+
+.main-container{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.main-img{
+    position: relative;
+}
+
+.main-img-text{
+    background-color: rgba(106, 117, 126, .4);
+    position: absolute;
+    bottom: 12px;
+    left: 0;
+    padding:.5em .5em;
+}
+
+.main-img img{
+    margin-bottom: .5em;
+}
+
 
 /* FOOTER  */
 .footer{
